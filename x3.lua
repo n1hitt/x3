@@ -1349,24 +1349,24 @@
                     BackgroundColor3 = themes.preset.misc_1
                 });	Library:Themify(Items.Background, "misc_1", "BackgroundColor3")
 
-Items.Title = Library:Create("TextLabel", {
-    FontFace = Fonts[themes.preset.font],
-    Parent = Items.Background,
-    TextColor3 = themes.preset.text_color,
-    BorderColor3 = rgb(0, 0, 0),
-    Text = 'essential.<font color="rgb(205,192,254)">solutions</font>',
-    Name = "essential.solutions",
-    AutomaticSize = Enum.AutomaticSize.XY,
-    Position = dim2(0, 0, 0, 3),
-    BorderSizePixel = 0,
-    BackgroundTransparency = 1,
-    TextXAlignment = Enum.TextXAlignment.Left,
-    RichText = true,
-    ZIndex = 2,
-    TextSize = 12,
-    BackgroundColor3 = rgb(255, 255, 255)
-});
-Library:Themify(Items.Title, "text_color", "BackgroundColor3")
+                    Items.Title = Library:Create("TextLabel", {
+                    FontFace = Fonts[themes.preset.font],
+                    Parent = Items.Background,
+                    TextColor3 = themes.preset.text_color,
+                    BorderColor3 = rgb(0, 0, 0),
+                    Text = 'essential.<font color="rgb(205,192,254)">solutions</font>',
+                    Name = "essential.solutions",
+                    AutomaticSize = Enum.AutomaticSize.XY,
+                    Position = dim2(0, 0, 0, 3),
+                    BorderSizePixel = 0,
+                    BackgroundTransparency = 1,
+                    TextXAlignment = Enum.TextXAlignment.Left,
+                    RichText = true,
+                    ZIndex = 2,
+                    TextSize = 12,
+                    BackgroundColor3 = rgb(255, 255, 255)
+                });
+                Library:Themify(Items.Title, "text_color", "BackgroundColor3")
 
                 Library:Create( "UIStroke", {
                     Parent = Items.Title;
@@ -1788,21 +1788,24 @@ Library:Themify(Items.Title, "text_color", "BackgroundColor3")
                         Thickness = 10000
                     }); Library:Themify(Stroke, "outline", "Color");
 
-                    Items.Title = Library:Create( "TextLabel" , {
-                        FontFace = Fonts[themes.preset.font];
-                        TextColor3 = rgb(235, 235, 235);
-                        TextStrokeColor3 = rgb(255, 255, 255);
-                        Parent = Items.InnerOutline;
-                        Name = "\0";
-                        AnchorPoint = vec2(0, 1);
-                        BorderSizePixel = 0;
-                        BackgroundTransparency = 1;
-                        Position = dim2(0, -1, 0, -8);
-                        BorderColor3 = rgb(0, 0, 0);
-                        AutomaticSize = Enum.AutomaticSize.XY;
-                        TextSize = 12;
-                        BackgroundColor3 = rgb(255, 255, 255)
-                    });
+Items.Title = Library:Create("TextLabel", {
+    FontFace = Fonts[themes.preset.font],
+    Parent = Items.Background,
+    TextColor3 = themes.preset.text_color,
+    BorderColor3 = rgb(0, 0, 0),
+    Text = 'essential.<font color="rgb(205,192,254)">solutions</font>',
+    Name = "essential.solutions",
+    AutomaticSize = Enum.AutomaticSize.XY,
+    Position = dim2(0, 0, 0, 3),
+    BorderSizePixel = 0,
+    BackgroundTransparency = 1,
+    TextXAlignment = Enum.TextXAlignment.Left,
+    RichText = true,
+    ZIndex = 2,
+    TextSize = 12,
+    BackgroundColor3 = rgb(255, 255, 255)
+});
+Library:Themify(Items.Title, "text_color", "BackgroundColor3")
 
                     Library:Create( "UIStroke" , {
                         Parent = Items.Title;
