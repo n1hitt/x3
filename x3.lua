@@ -32,7 +32,7 @@
         preset = {
             inline = rgb(46, 46, 46),
             outline = rgb(10, 10, 15),
-            accent = rgb(238, 192, 255),
+            accent = rgba(205, 192, 255, 1),
             background = rgb(20, 20, 25),              
             misc_1 = rgb(30, 30, 35),
             text_color = rgb(245, 245, 245),
