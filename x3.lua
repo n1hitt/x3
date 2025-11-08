@@ -1,39 +1,3 @@
--- PATCHED
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 -- Variables 
     local InputService, HttpService, GuiService, RunService, Stats, CoreGui, TweenService, SoundService, Workspace, Players, Lighting = game:GetService("UserInputService"), game:GetService("HttpService"), game:GetService("GuiService"), game:GetService("RunService"), game:GetService("Stats"), game:GetService("CoreGui"), game:GetService("TweenService"), game:GetService("SoundService"), game:GetService("Workspace"), game:GetService("Players"), game:GetService("Lighting")
@@ -68,7 +32,7 @@
         preset = {
             inline = rgb(46, 46, 46),
             outline = rgb(10, 10, 15),
-            accent = rgba(234, 193, 255, 1),
+            accent = rgb(238, 192, 255),
             background = rgb(20, 20, 25),              
             misc_1 = rgb(30, 30, 35),
             text_color = rgb(245, 245, 245),
