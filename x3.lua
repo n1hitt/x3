@@ -10,7 +10,7 @@
 
 -- Library init
     getgenv().Library = {
-        Directory = "octo",
+        Directory = "essentials",
         Folders = {
             "/fonts",
             "/configs",
